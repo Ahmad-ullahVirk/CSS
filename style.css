@@ -1,0 +1,105 @@
+.topSection{
+    display: flex;
+    height: 800px;
+    
+    background-color: #82dfff;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    background-color: transparent;
+    color: #0078ff;
+    list-style-type: none;
+    gap: 0;
+    
+}
+.Ahmad{
+    
+    font-size: 8rem;
+    font-family: "Grey Qo", cursive;
+    font-weight: bold;
+}
+.programmer{
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    
+}
+.Hello
+{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #0078ff;
+    padding-top: 50px;
+    margin: 0;
+}
+ .dis
+ {
+    width: 800px;
+    height: auto;
+    font-size: 1.5rem;
+    color: black;
+ }
+ .myskills
+ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .skill1{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    gap: 50px;
+ }
+ .skill1text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+ }
+ .skill1name{
+    font-weight: bold;
+    font-size: 1.4rem;
+ }
+ .skill1dis
+ {
+    font-size: 1.2rem;
+ }
+ .contactbutton
+ {
+    display: flex;
+    height: 50px;
+    width: 150px;
+    background-color: #0078ff;
+    color: aliceblue;
+    font-size: large;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+ }
+ .Hello:hover
+ {
+    color: #000;
+ }
+ .img1:hover
+ {
+    height: 300px;
+ }
+ .contactbutton:hover
+ {
+    background-color: #82dfff;
+    color: black;
+ }
